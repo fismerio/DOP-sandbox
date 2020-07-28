@@ -1,10 +1,9 @@
-# DOP-sandbox
 <!-- Output copied to clipboard! -->
 
 <!-----
 NEW: Check the "Suppress top comment" option to remove this info from the output.
 
-Conversion time: 0.203 seconds.
+Conversion time: 0.291 seconds.
 
 
 Using this Markdown file:
@@ -17,11 +16,14 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β29
-* Mon Jul 27 2020 19:44:45 GMT-0700 (PDT)
+* Mon Jul 27 2020 19:48:32 GMT-0700 (PDT)
 * Source doc: DOP-sandbox
-* This is a partial selection. Check to make sure intra-doc links work.
 ----->
 
 
+ 
+
 
 # DOP-sandbox
+
+Dance-Oriented Programming Sandbox - an IDE for exploring programming with the body.
