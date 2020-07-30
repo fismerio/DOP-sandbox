@@ -1,9 +1,9 @@
- <!-- Output copied to clipboard! -->
+<!-- Output copied to clipboard! -->
 
 <!-----
 NEW: Check the "Suppress top comment" option to remove this info from the output.
 
-Conversion time: 0.417 seconds.
+Conversion time: 0.401 seconds.
 
 
 Using this Markdown file:
@@ -16,7 +16,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β29
-* Wed Jul 29 2020 19:55:45 GMT-0700 (PDT)
+* Wed Jul 29 2020 20:13:53 GMT-0700 (PDT)
 * Source doc: DOP-sandbox
 ----->
 
@@ -43,6 +43,14 @@ I have already started looking at:
 *   [https://www.jetbrains.com/mps/](https://www.jetbrains.com/mps/) 
 *   OpenCV - [https://opencv.org/](https://opencv.org/) 
     *   [https://youtu.be/WQeoO7MI0Bs](https://youtu.be/WQeoO7MI0Bs) - LEARN OPENCV in 3 HOURS with Python | Including 3x Example Projects (2020)
+
+Adding to my initial list is Dror Ayalon’s suggestions: 
+
+
+
+*   [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet) is an interesting lightweight model for pose detection. It has a JavaScript implementation that is gaining traction.  [ml5.js Pose Estimation with PoseNet](https://youtu.be/OIo-DIOkNVg)
+*   This is a project that friends at Google built with PoseNet and with partnership of Bill T. Jones -  [https://experiments.withgoogle.com/billtjonesai](https://experiments.withgoogle.com/billtjonesai)
+*   The VNect group published a new model - [XNect](http://gvv.mpi-inf.mpg.de/projects/XNectDemo/) - that now supports multiple figures in real time. The paper was published at this year's Siggraph.
 
 Extreme exploration is INTENDED.
 
