@@ -3,7 +3,7 @@
 <!-----
 NEW: Check the "Suppress top comment" option to remove this info from the output.
 
-Conversion time: 0.945 seconds.
+Conversion time: 0.54 seconds.
 
 
 Using this Markdown file:
@@ -16,19 +16,9 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β29
-* Wed Jul 29 2020 20:24:35 GMT-0700 (PDT)
+* Wed Jul 29 2020 20:30:33 GMT-0700 (PDT)
 * Source doc: DOP-sandbox
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
 ----->
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 1.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
  
@@ -37,6 +27,8 @@ Conversion notes:
 # DOP-sandbox
 
 Dance-Oriented Programming Sandbox - an IDE for exploring programming with the body.
+
+The original article on **Medium** - [Dance-Oriented Programming and a fresh look at software craftsmanship.](https://medium.com/@fismerio/dance-oriented-programming-and-a-fresh-look-at-software-craftsmanship-3a0c4269ba08)
 
 Here is a place where skeletal-tracking, maintenance, refactoring, construction and specification come together.
 
@@ -65,12 +57,6 @@ Adding to my initial list is Dror Ayalon’s suggestions:
 At some point, I would like to explore visual metaphors for code visualization and manipulation.
 
 One such metaphor would be maps of rivers as in [vector-river-map](https://github.com/NelsonMinar/vector-river-map).
-
-
-
-
-
-
 
 Extreme exploration is INTENDED.
 
