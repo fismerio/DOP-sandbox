@@ -1,5 +1,5 @@
 These basic experiments with a river metaphor superimposed on the 
-the gray scale image of the webcam.
+the gray scale image of the webcam illustrate one possible approach.
 
 My dream would be that the river contains some meaningful visualization 
 of source code and my silhouette could manipulate the river
