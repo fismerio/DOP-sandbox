@@ -18,3 +18,5 @@ Banks: The edge or sides of the river that the water flows within.  The terms ri
 Course: The path of the river.
 
 Channel: Can mean two things- either the river bed or the line deepest water through the river.
+
+![River](http://www.americanrivers.org/rivers/about/what-parts-make-up-a-river.html)
