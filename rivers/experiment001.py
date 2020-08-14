@@ -17,7 +17,7 @@ def build_river(river,shape):
     # incrX = 5
     incrY = 5
     # incrW = 1
-    incrColor = -1
+    incrColor = -2
 
     x1 = xMax // 2
     y1 = yMin
