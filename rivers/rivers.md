@@ -22,6 +22,8 @@ Course: The path of the river.
 
 Channel: Can mean two things- either the river bed or the line deepest water through the river.
 
+Source: http://www.blueplanet.nsw.edu.au/las--parts-of-a-river/.aspx
+
 ![River](https://s3.amazonaws.com/american-rivers-website/wp-content/uploads/2016/02/24220559/anatomy-of-a-river.png)
 
 The United States has more than  2.9 million miles of rivers.
