@@ -32,7 +32,7 @@ def build_river(river,shape):
         x1 = x2
         y1 = y2
         # x2 = x1 + incrX
-        x2 = x1 + randrange(10) # random river
+        x2 = x1 + randrange(15) # random river
         y2 = y1 + incrY
         # thick = thick + incrW
         thick = thick + randrange(2)
@@ -43,7 +43,7 @@ def build_river(river,shape):
         x1 = x2
         y1 = y2
         # x2 = x1 - incrX
-        x2 = x1 - randrange(10) #random river
+        x2 = x1 - randrange(20) #random river
         y2 = y1 + incrY
         # thick = thick + incrW
         thick = thick + randrange(2)
