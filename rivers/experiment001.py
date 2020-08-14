@@ -12,11 +12,11 @@ def build_river(river,shape):
     green = 255
     xMax = shape[1]
     yMax = shape[0]
-    xMin = 0
+    # xMin = 0
     yMin = 0
-    incrX = 5
+    # incrX = 5
     incrY = 5
-    incrW = 1
+    # incrW = 1
     incrColor = -1
 
     x1 = xMax // 2
@@ -35,7 +35,7 @@ def build_river(river,shape):
         x2 = x1 + randrange(15) # random river
         y2 = y1 + incrY
         # thick = thick + incrW
-        thick = thick + randrange(2)
+        thick = abs( thick + randrange(6) - 3) + 1
         green = green + incrColor
         color1 = (0, green, 0)
         river.append([(x1,y1),(x2,y2),color1,thick])
@@ -46,7 +46,7 @@ def build_river(river,shape):
         x2 = x1 - randrange(20) #random river
         y2 = y1 + incrY
         # thick = thick + incrW
-        thick = thick + randrange(2)
+        tthick = abs( thick + randrange(6) - 3) + 1
         green = green + incrColor
         color1 = (0, green, 0)
         river.append([(x1,y1),(x2,y2),color1,thick])
@@ -72,6 +72,8 @@ build_river(river,shape)
 while True:
     success, img = cap.read()
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    # black and white
+    # https://techtutorialsx.com/2019/04/13/python-opencv-converting-image-to-black-and-white/
     imgGray2 = cv2.cvtColor(imgGray, cv2.COLOR_GRAY2BGR)
     draw_river(imgGray2, river)
 
