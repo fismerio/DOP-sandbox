@@ -19,4 +19,4 @@ Course: The path of the river.
 
 Channel: Can mean two things- either the river bed or the line deepest water through the river.
 
-![River](http://www.americanrivers.org/rivers/about/what-parts-make-up-a-river.html)
+![River](https://s3.amazonaws.com/american-rivers-website/wp-content/uploads/2016/02/24220559/anatomy-of-a-river.png)
