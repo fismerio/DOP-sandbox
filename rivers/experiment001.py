@@ -1,8 +1,9 @@
 import cv2
 # import numpy as np
-
+width = 640
+height = 480
 river = []
-shape = [640,480]
+shape = [width,height]
 
 def build_river(river,shape):
     # Add list of river branches.
@@ -65,15 +66,15 @@ def draw_river(img, river):
         cv2.line(img, segment[0], segment[1], segment[2] , segment[3])
 
 
-    pass
 
-# imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
-# cap = cv2.VideoCapture("Resources/test-video.mp4")
+# --------------------------------------------- Main --------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------
+
 cap = cv2.VideoCapture(0)
 
-cap.set(3,640)
-cap.set(4,480)
+cap.set(3,width)
+cap.set(4,height)
 cap.set(50,500)
 
 build_river(river,shape)
