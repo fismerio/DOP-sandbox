@@ -75,6 +75,7 @@ while True:
     # black and white
     # https://techtutorialsx.com/2019/04/13/python-opencv-converting-image-to-black-and-white/
     imgGray2 = cv2.cvtColor(imgGray, cv2.COLOR_GRAY2BGR)
+    imgGray2 = cv2.flip(imgGray2, 1)
     draw_river(imgGray2, river)
 
     cv2.imshow( "DOP Sandbox", imgGray2)
