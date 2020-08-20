@@ -28,4 +28,5 @@ https://youtu.be/7dLDVL7rtrI -  Whole Body Large Wall Display Interaction
 https://youtu.be/qJ_hplxTYJw - Code, Crime, Complexity: Analyzing software with forensic psychology | Adam Tornhill | TEDxTrondheim
 
 https://youtu.be/gPeeFCvJOWA - Body Tracking with Python (OpenCV2 Library)
+https://github.com/Its-Triggy/Joint_Track 
 
