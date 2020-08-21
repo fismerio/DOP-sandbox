@@ -32,3 +32,5 @@ https://github.com/Its-Triggy/Joint_Track
 
 https://github.com/murtazahassan/Learn-OpenCV-in-3-hours - openCV 3 hours course
 
+https://www.mattlayman.com/blog/2018/decipher-python-ast/ - Deciphering Python: How to use Abstract Syntax Trees (AST) to understand code
+

@@ -1,5 +1,6 @@
 import cv2
 from random import randrange
+import keyword
 # import numpy as np
 width = 640 * 2
 height = 480 * 2
@@ -57,10 +58,12 @@ def build_code(f,code,shape):
     xMax = shape[1]
     yMax = shape[0]
     y1 = 20
-    while (y1 < yMax):
-        str = f.readline()
-        code.append(str)
-        y1 = y1 + 20
+    # while (y1 < yMax):
+    #     str = f.readline()
+    #     code.append(str)
+    #     y1 = y1 + 20
+    code = f.readlines()
+    return code
 
 
 
@@ -73,9 +76,18 @@ def draw_river(img, river):
 def draw_code(img, code):
     yMax = 480 * 2
     y1 = 20
+    x1 = 10
     for line in code:
-        cv2.putText(imgGray2, line, (10, y1), cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 100), 3)
+        thick = 1
+        # check for keywords
+        if 'def' in line:
+            thick = 2
+
+        cv2.putText(imgGray2, line, (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 100), thick)
         y1 = y1 + 20
+        if y1 > yMax:
+            y1 = 20
+            x1 = x1 + 640
 
 
 # --------------------------------------------- Main --------------------------------------------------------------
@@ -90,7 +102,7 @@ cap.set(50,500)
 build_river(river,shape)
 
 f = open('experiment001.py','r')
-build_code(f,code, shape)
+code = build_code(f,code, shape)
 
 
 
