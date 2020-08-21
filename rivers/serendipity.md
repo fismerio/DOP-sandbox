@@ -30,3 +30,5 @@ https://youtu.be/qJ_hplxTYJw - Code, Crime, Complexity: Analyzing software with 
 https://youtu.be/gPeeFCvJOWA - Body Tracking with Python (OpenCV2 Library)
 https://github.com/Its-Triggy/Joint_Track 
 
+https://github.com/murtazahassan/Learn-OpenCV-in-3-hours - openCV 3 hours course
+
